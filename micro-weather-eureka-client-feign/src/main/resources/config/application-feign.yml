@@ -1,9 +1,9 @@
 server:
-  port: 8883
+  port: 8884
 
 spring:
   application:
-    name: micro-weather-city-eureka
+    name: micro-weather-eureka-client-feign
 
 eureka:
   client:

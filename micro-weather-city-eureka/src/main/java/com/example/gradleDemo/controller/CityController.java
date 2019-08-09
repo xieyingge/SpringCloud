@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/cities")
+@RequestMapping("/city")
 public class CityController {
 
     @Autowired
     private CityDataService cityDataService;
 
-    @GetMapping
+    @GetMapping("listCity")
     public List<City> listCity() throws Exception {
         return cityDataService.listCity();
     }

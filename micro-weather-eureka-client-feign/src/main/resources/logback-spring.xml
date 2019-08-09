@@ -44,7 +44,7 @@
     <!--举个例子：root是info级别，logger是debug级别但是logger没有appender子节点，additivity属性为false，那么这个logger的日志不会打印控制台也不会输出到文件。
     如果additivity属性为true，那么会引用root的appender效果。-->
     <!--additivity一般为true-->
-    <logger name="com.example.gradleDemo.dao" level="debug" additivity="false">
+    <logger name="com.example.gradleDemo.service" level="debug" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
