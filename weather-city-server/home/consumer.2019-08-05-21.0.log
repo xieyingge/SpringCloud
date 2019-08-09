@@ -1,0 +1,404 @@
+2019-08-05 21:14:27.410 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 5980 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:14:27.412 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:14:27.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:14:27.995 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:14:28.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-08-05 21:14:28.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c94f58e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:14:28.598 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:14:28.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:14:28.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:14:28.619 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:14:28.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:14:28.720 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1243 ms
+2019-08-05 21:14:29.566 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:14:29.672 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:14:29.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:14:29.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-05 21:14:29.864 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 2.947 seconds (JVM running for 3.904)
+2019-08-05 21:15:42.620 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 21:15:42.620 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-05 21:15:42.625 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-05 21:17:26.142 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:17:30.712 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 11772 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:17:30.714 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:17:31.170 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:17:31.172 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:17:31.192 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-08-05 21:17:31.397 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5def9a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:17:31.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:17:31.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:17:31.598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:17:31.598 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:17:31.674 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:17:31.674 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 932 ms
+2019-08-05 21:17:32.307 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:17:32.396 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:17:32.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:17:32.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-05 21:17:32.585 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 2.257 seconds (JVM running for 2.911)
+2019-08-05 21:17:40.618 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 21:17:40.618 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-05 21:17:40.622 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-08-05 21:23:46.670 [Thread-7] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:23:50.604 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 6880 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:23:50.606 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:23:51.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:23:51.046 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:23:51.066 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-08-05 21:23:51.275 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dcc2bdea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:23:51.460 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:23:51.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:23:51.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:23:51.476 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:23:51.553 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:23:51.554 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 897 ms
+2019-08-05 21:23:52.165 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:23:52.251 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:23:52.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:23:52.421 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-05 21:23:52.424 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 2.187 seconds (JVM running for 2.846)
+2019-08-05 21:24:09.599 [http-nio-8081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 21:24:09.599 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-05 21:24:09.604 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-05 21:24:30.727 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://mobile.weather.com.cn/js/citylist.xml": Connect to mobile.weather.com.cn:80 [mobile.weather.com.cn/220.243.128.131] failed: Connection timed out: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to mobile.weather.com.cn:80 [mobile.weather.com.cn/220.243.128.131] failed: Connection timed out: connect] with root cause
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:338)
+	at com.example.gradleDemo.service.impl.WeatherDataServiceImpl.getAllCityNameAndIdInWeatherSystem(WeatherDataServiceImpl.java:28)
+	at com.example.gradleDemo.controller.WeatherController.getAllCityNameAndIdInWeatherSystem(WeatherController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-05 21:25:05.630 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://mobile.weather.com.cn/js/citylist.xml": Connect to mobile.weather.com.cn:80 [mobile.weather.com.cn/220.243.128.131] failed: Connection timed out: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to mobile.weather.com.cn:80 [mobile.weather.com.cn/220.243.128.131] failed: Connection timed out: connect] with root cause
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:338)
+	at com.example.gradleDemo.service.impl.WeatherDataServiceImpl.getAllCityNameAndIdInWeatherSystem(WeatherDataServiceImpl.java:28)
+	at com.example.gradleDemo.controller.WeatherController.getAllCityNameAndIdInWeatherSystem(WeatherController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-05 21:49:56.819 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 9596 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:49:56.821 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:49:57.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:49:57.265 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:49:57.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-08-05 21:49:57.495 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4893099c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:49:57.686 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:49:57.696 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:49:57.703 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:49:57.703 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:49:57.783 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:49:57.783 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 909 ms
+2019-08-05 21:49:58.396 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:49:58.483 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:49:58.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:49:58.655 [main] ERROR org.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8081]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.example.gradleDemo.MicroWeatherBasicApplication.main(MicroWeatherBasicApplication.java:13)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-08-05 21:49:58.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:49:58.660 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-08-05 21:49:58.689 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-08-05 21:49:58.689 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:49:58.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:49:58.692 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-05 21:49:58.697 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2019-08-05 21:49:58.699 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:50:02.664 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:50:07.735 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 11800 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:50:07.737 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:50:08.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:50:08.179 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:50:08.200 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-05 21:50:08.415 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4515a84f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:50:08.609 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:50:08.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:50:08.625 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:50:08.625 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:50:08.706 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:50:08.706 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 914 ms
+2019-08-05 21:50:09.343 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:50:09.430 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:50:09.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:50:09.600 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-05 21:50:09.602 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 2.231 seconds (JVM running for 2.841)
+2019-08-05 21:50:32.507 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 21:50:32.507 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-05 21:50:32.512 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-05 21:50:32.618 [http-nio-8081-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-05 21:50:32.619 [http-nio-8081-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-05 21:50:32.918 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:50:44.266 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:50:57.342 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:50:57.545 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:57.729 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:57.869 [http-nio-8081-exec-2] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:58.012 [http-nio-8081-exec-4] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:58.171 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:58.569 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:50:59.000 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:15.423 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:51:16.038 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:16.458 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:16.878 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:17.503 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:17.974 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:20.483 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:20.709 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:20.910 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:21.142 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:21.339 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:21.809 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:22.081 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:24.401 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:24.742 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:25.116 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:25.433 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:25.598 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:51:28.152 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:28.388 [http-nio-8081-exec-2] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:48.512 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:51:50.774 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:54.853 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:55.313 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:55.622 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:56.124 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:56.561 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:56.751 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:56.904 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:57.084 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:57.350 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:57.536 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:57.709 [http-nio-8081-exec-9] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:57.837 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:58.008 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:58.171 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:58.485 [http-nio-8081-exec-8] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:58.837 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-05 21:51:59.190 [http-nio-8081-exec-2] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:51:59.574 [http-nio-8081-exec-4] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:00.131 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:00.616 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:01.089 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:01.542 [http-nio-8081-exec-2] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:02.038 [http-nio-8081-exec-4] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:02.716 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:03.393 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:04.085 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:04.793 [http-nio-8081-exec-2] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:05.457 [http-nio-8081-exec-4] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:06.016 [http-nio-8081-exec-3] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-05 21:52:53.119 [Thread-7] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:52:56.737 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 1348 (E:\code\cloud\micro-weather-basic\out\production\classes started by roman in E:\code\cloud\micro-weather-basic)
+2019-08-05 21:52:56.738 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-05 21:52:57.181 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-05 21:52:57.183 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-05 21:52:57.205 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-05 21:52:57.417 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0b510da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 21:52:57.603 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-05 21:52:57.612 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:52:57.618 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-05 21:52:57.618 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 21:52:57.696 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-05 21:52:57.696 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 905 ms
+2019-08-05 21:52:58.303 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 21:52:58.389 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-05 21:52:58.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-05 21:52:58.559 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-05 21:52:58.561 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 2.222 seconds (JVM running for 2.855)
+2019-08-05 21:53:29.537 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 21:53:29.537 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-05 21:53:29.552 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-08-05 21:53:29.651 [http-nio-8081-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-05 21:53:29.652 [http-nio-8081-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-05 21:53:29.963 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data

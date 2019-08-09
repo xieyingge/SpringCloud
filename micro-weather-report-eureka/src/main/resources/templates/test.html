@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<!--<head th:include="common/head::html"></head>-->
+    <body>
+        <h1>hello world!!</h1>
+
+        <span th:each="item,index:${sysUsers}" th:value="${item.userName}"
+                th:text="${item.userName}"></span>
+
+        <span th:text="${sysUsers}"></span>
+    </body>
+</html>
+

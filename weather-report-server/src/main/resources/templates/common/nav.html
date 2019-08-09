@@ -1,0 +1,237 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<div class="sidebar-collapse" style="padding-bottom: 200px">
+    <ul class="nav" id="side-menu">
+
+        <li class="nav-header">
+            <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle center" width="48" height="48"
+                                 th:src="@{/static/img/default.jpg}"
+                            />
+                             </span>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                             <span class="clear"> <span class="block m-t-xs"> 欢迎：<strong
+                                     class="font-bold" th:text="${session.user.realName}"></strong></span>
+                             </span> <span class="text-muted text-xs block"></b></span> </span> </a>
+                <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                    <li><a th:href="@{/editPassword}">修改密码</a></li>
+                    <!--<li><a href="javascript:;">皮肤设置-->
+                        <!--<button class="btn btn-success btn-xs" type="button" onclick="setSkin('skin-default')"><i-->
+                                <!--class="fa fa-link"></i></button>-->
+                        <!--<button class="btn btn-warning btn-xs" type="button" onclick="setSkin('skin-3')"><i-->
+                                <!--class="fa fa-link"></i></button>-->
+                        <!--<button class="btn btn-default btn-xs" type="button" onclick="setSkin('default')"><i-->
+                                <!--class="fa fa-link"></i></button>-->
+                    <!--</a></li>-->
+                    <li class="divider"></li>
+                    <li><a th:href="@{/logout.html}">登出</a></li>
+                </ul>
+            </div>
+            <div class="logo-element">
+                ST
+            </div>
+        </li>
+        <li th:class="${#request.getRequestURI().equals('/index.html')?'active':''}">
+            <a th:href="@{/templates/index.html}"><i class="fa fa-home"></i> <span class="nav-label">主页</span></a>
+        </li>
+        <li th:each="menu ,s: ${session.loginmenu}" th:if="${menu.children.size()>0}"
+            th:class="${T(net.hnst.vend.ThymeleafUtil).checkMenuActive(#request,menu)?'active':''}">
+            <a href="#"><i th:class="${'fa fa-cog fa-fw'}"></i> <span
+                    class="nav-label"> [[${menu.funcname}]]</span><span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+                <li th:each="semenu : ${menu.children}"
+                    th:class="${T(net.hnst.vend.ThymeleafUtil).checkMenuActive(#request,semenu)?'active':''}">
+                    <a th:href="@{/}+${semenu.funcaction}"> <i th:class="${'fa fa-database fa-fw'}"></i>[[${semenu.funcname}]]</a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+
+</div>
+
+
+<div id="modifyPwd-form" class="modal fade" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content animated bounceInTop">
+            <div class="modal-header">密码修改</div>
+            <div class="modal-body">
+                <div class="row">
+                    <form role="form" id="modify-form" name="modify-form" class="form-horizontal">
+                        <!--<input type="hidden" id="id" name="id">-->
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-3 control-label no-padding-right"> 账号： </label>-->
+                            <!--<div class="col-sm-4">-->
+                                <!--<input type="text" id="username" name="username" class="form-control"/>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"> 原始密码： </label>
+                            <div class="col-sm-4">
+                                <input type="password" id="primitivePassword" name="primitivePassword" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"> 新密码： </label>
+                            <div class="col-sm-4">
+                                <input type="password" id="newPwd" name="newPwd" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"> 再次输入新密码： </label>
+                            <div class="col-sm-4">
+                                <input type="password" id="renewPwd" name="renewPwd" class="form-control"/>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm btn-white pull-right m-t-n-xs" type="button"
+                                    data-dismiss="modal">
+                                <strong>取消</strong></button>
+                            <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="button"
+                                    onclick="nav_save()">
+                                <strong>确定</strong></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var nav_validator;
+    $(function () {
+        nav_validator = $('#modify-form').validate({
+            errorElement: 'div',
+            errorClass: 'help-block',
+            focusInvalid: false,
+            rules: {
+                username: {
+                    required: true
+//                    remote: {
+//                        url: "[[@{/}]]sys/SysUser/validateUser.html",
+//                        type: "post",
+//                        dataType: "json",
+//                        data: {
+//                            username: function () {
+//                                return $("#username").val();
+//                            }
+//                        },
+//                        dataFilter: function (data) {
+//                                if (data == "true") {
+//                                    return true;
+//                                } else {
+//                                    return false;
+//                                }
+//                        }
+//                    }
+                },
+                primitivePassword: {
+                    required: true,
+                    maxlength: 32,
+                    remote: {
+                        url: "[[@{/}]]index/validataPwd.html",
+                        type: "post",
+                        dataType: "json",
+                        data: {
+                            primitivePassword:function () {
+                                return $("#primitivePassword").val();
+                            }
+                        },
+                        dataFilter: function (data) {
+                            if (data == "true") {
+                                return true;
+                            } else {
+                                return false;
+                            }
+                        }
+                    }
+                },
+                newPwd: {
+                    required: true,
+                    maxlength: 32
+                },
+                renewPwd: {
+                    required: true,
+                    maxlength: 32
+                }
+            },
+            messages: {
+                username: {
+                    required: "请填账号",
+//                    remote: "用户不存在"
+                },
+                primitivePassword: {
+                    required: "请填密码",
+                    maxlength: "密码不能多余32个字符",
+                    remote: "密码不正确"
+                },
+                newPwd: {
+                    required: "请填新密码",
+                    maxlength: "新密码不能多余32个字符"
+                },
+                renewPwd: {
+                    required: "请填新密码",
+                    maxlength: "新密码不能多余32个字符"
+                }
+            },
+            highlight: function (e) {
+                $(e).closest('.form-group').removeClass('has-info').addClass('has-error');
+            },
+            success: function (e) {
+                $(e).closest('.form-group').removeClass('has-error');//.addClass('has-info');
+                $(e).remove();
+            },
+            errorPlacement: function (error, element) {
+                element.closest("div.form-group").append(error);
+            }
+        });
+
+
+    });
+
+
+    function nav_resetForm() {
+        $.each($("#modifyPwd-form :input", "#modifyPwd-form select"),function (i, item) {
+            $(item).val("");
+        });
+    }
+
+
+    function modifyPwd() {
+        nav_resetForm();
+        $('#modifyPwd-form').modal({'backdrop': 'static'});
+        $(".chosen-select").trigger("change");
+    }
+
+    function nav_save(target) {
+        if ($('#modify-form').valid()) {
+            if ($("#newPwd").val() != $("#renewPwd").val()) {
+                $("#newPwd,#renewPwd").parent().after("<div class='help-block' style='color: #953b39;'>两次密码不输入一致</div>");
+            } else {
+                $(target).attr("disabled", "disabled");
+//                var op = $("#id").val() == '' ? "insert" : "update";
+                jQuery.ajax({
+                    type: "post",
+                    url: "[[@{/}]]index/modifyPwd.html",
+                    data: $('#modify-form').serialize(),
+                    dataType: "json",
+                    success: function (data) {
+                        $('#modify-form')[0].reset();
+                        if (data.flag == "fail") {
+                            $(target).removeAttr("disabled");
+                            toastr.error(data.message);
+                        } else {
+                            toastr.success("操作成功", function () {
+                                $('#modifyPwd-form').modal('hide');
+                            });
+                        }
+                    }
+                });
+            }
+
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!--
+ 微信端的 公共头部HEAD
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link th:href="@{/static/font-awesome/css/font-awesome.css}" rel="stylesheet">
+    <!-- weixin css -->
+    <link th:href="@{/static/wxmp/wxex.less}" rel="stylesheet">
+
+    <!-- weixin js-->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+
+    <!-- jquery -->
+    <script th:src="@{/static/js/core.js}"></script>
+
+    <!-- sockJS -->
+    <script th:src="@{/static/js/sockJs.js}"></script>
+
+    <!-- pickout -->
+    <link th:href="@{/static/wxmp/lib/pickout/pickout.css?version=20181225}" rel="stylesheet">
+    <script th:src="@{/static/wxmp/lib/pickout/pickout.js?version=20181225}"></script>
+
+    <!-- common css -->
+    <link th:href="@{/static/wxmp/wx.css?version=}+${version}" rel="stylesheet">
+
+    <!-- commonJs -->
+    <script th:src="@{/static/js/wxmpCommon.js?version=}+${version}"></script>
+
+
+</head>

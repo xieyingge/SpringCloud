@@ -1,0 +1,149 @@
+<div th:fragment="tool (addShow,commitShow,deleteShow,exportShow,importShow,selectShow,printShow)">
+    <div style="display: inline-block" th:if="${addShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="添加"
+                onclick="showModal()">
+            <i class="fa fa-plus bigger-130"></i>&nbsp;&nbsp;添加
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${commitShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="提交"
+                onclick="commit()">
+            <i class="fa fa-check bigger-130"></i>&nbsp;&nbsp;提交
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${deleteShow}">
+        <button class="btn btn-danger btn-xs" href="javascript:void(0)" onclick="deletes()"
+                data-rel="tooltip"
+                title="批量删除">
+            <i class=" fa fa-trash bigger-130"></i>&nbsp;&nbsp;删除
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${exportShow}">
+        <button class="btn btn-info btn-xs" href="javascript:void(0)" data-rel="tooltip" title="导出"
+                onclick="exportTable()">
+            <i class=" fa fa-file-excel-o bigger-130"></i>&nbsp;&nbsp;导出
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${importShow}">
+        <button class="btn btn-info btn-xs importBtn" href="javascript:void(0)" data-rel="tooltip" title="导入"
+             >
+            <i class=" fa fa-file-excel-o bigger-130"></i>&nbsp;&nbsp;导入
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${selectShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="筛选" data-toggle="collapse" href="#searchTable">
+            <i class=" fa fa-search bigger-130"></i>&nbsp;&nbsp;筛选
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${printShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="打印" data-toggle="collapse" onclick="printTable()">
+            <i class=" fa fa-file-pdf-o bigger-130"></i>&nbsp;&nbsp;打印
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div th:fragment="tool_child (passShow,unpassShow,debtShow,exportShow,selectShow,printShow)">
+    <div style="display: inline-block" th:if="${passShow}">
+        <button class="btn btn-primary btn-xs" data-rel="tooltip" title="审核通过"
+                onclick="pass()">
+            <i class="ace-icon fa fa-check bigger-130"></i>&nbsp;&nbsp;审核通过
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${unpassShow}">
+        <button class="btn btn-danger btn-xs" data-rel="tooltip" title="作废"
+                onclick="unpass()">
+            <i class="ace-icon fa fa-close bigger-130"></i>&nbsp;&nbsp;作废
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${debtShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="暂欠款"
+                onclick="debt()">
+            <i class="ace-icon fa fa-recycle bigger-130"></i>&nbsp;&nbsp;暂欠款
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${exportShow}">
+        <button class="btn btn-info btn-xs" href="javascript:void(0)" data-rel="tooltip" title="导出"
+                onclick="exportTable()">
+            <i class=" fa fa-file-excel-o bigger-130"></i>&nbsp;&nbsp;导出
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${selectShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="筛选" data-toggle="collapse" href="#searchTable">
+            <i class=" fa fa-search bigger-130"></i>&nbsp;&nbsp;筛选
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${printShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="打印" data-toggle="collapse" onclick="printTable()">
+            <i class=" fa fa-file-pdf-o bigger-130"></i>&nbsp;&nbsp;打印
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div th:fragment="tool_carOrg (addShow,commitShow,deleteShow,exportShow,importShow,selectShow,printShow)">
+    <div style="display: inline-block" th:if="${addShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="添加"
+                onclick="showModalCarOrg()">
+            <i class="fa fa-plus bigger-130"></i>&nbsp;&nbsp;添加
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${commitShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="提交"
+                onclick="commitCarOrg()">
+            <i class="fa fa-check bigger-130"></i>&nbsp;&nbsp;提交
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${deleteShow}">
+        <button class="btn btn-danger btn-xs" href="javascript:void(0)" onclick="deletesCarOrg()"
+                data-rel="tooltip"
+                title="批量删除">
+            <i class=" fa fa-trash bigger-130"></i>&nbsp;&nbsp;删除
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${exportShow}">
+        <button class="btn btn-info btn-xs" href="javascript:void(0)" data-rel="tooltip" title="导出"
+                onclick="exportTableCarOrg()">
+            <i class=" fa fa-file-excel-o bigger-130"></i>&nbsp;&nbsp;导出
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${importShow}">
+        <button class="btn btn-info btn-xs" href="javascript:void(0)" data-rel="tooltip" title="导入"
+                onclick="importRecordCarOrg()">
+            <i class=" fa fa-file-excel-o bigger-130"></i>&nbsp;&nbsp;导入
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${selectShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="筛选" data-toggle="collapse" href="#searchTable">
+            <i class=" fa fa-search bigger-130"></i>&nbsp;&nbsp;筛选
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    <div style="display: inline-block" th:if="${printShow}">
+        <button class="btn btn-info btn-xs" data-rel="tooltip" title="打印" data-toggle="collapse"
+                onclick="printTableCarOrg()">
+            <i class=" fa fa-file-pdf-o bigger-130"></i>&nbsp;&nbsp;打印
+        </button>
+        &nbsp;&nbsp;
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+

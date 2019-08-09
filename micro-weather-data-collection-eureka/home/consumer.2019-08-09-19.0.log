@@ -1,0 +1,242 @@
+2019-08-09 19:48:30.207 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63153830] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:48:31.519 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-09 19:48:31.831 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-09 19:48:31.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-09 19:48:31.863 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-08-09 19:48:32.003 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2e2bea2a-4cb2-31bc-8eb3-c971ee644740
+2019-08-09 19:48:32.066 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63153830] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:48:32.222 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-09 19:48:32.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:48:32.238 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-09 19:48:32.238 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-09 19:48:32.331 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-09 19:48:32.331 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 796 ms
+2019-08-09 19:48:32.737 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:48:32.737 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:48:32.737 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:48:32.737 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:48:32.831 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-09 19:48:33.050 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6009cd34
+2019-08-09 19:48:34.347 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:48:35.565 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:48:35.659 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-09 19:48:35.674 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-09 19:48:35.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-09 19:48:35.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-09 19:48:35.815 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-09 19:48:35.815 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-09 19:48:35.971 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-09 19:48:36.112 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-09 19:48:36.205 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-09 19:48:36.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-09 19:48:36.205 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-09 19:48:36.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565351316205 with initial instances count: 0
+2019-08-09 19:48:36.205 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status UP
+2019-08-09 19:48:36.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351316205, current=UP, previous=STARTING]
+2019-08-09 19:48:36.205 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:48:36.205 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-09 19:48:36.205 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-09 19:48:36.221 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:48:36.221 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. Start！
+2019-08-09 19:48:36.221 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280601
+2019-08-09 19:48:36.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-09 19:48:36.237 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-09 19:48:36.237 [main] INFO  com.example.gradleDemo.Application - Started Application in 7.733 seconds (JVM running for 8.743)
+2019-08-09 19:48:36.283 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204
+2019-08-09 19:48:36.393 [quartzScheduler_Worker-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-09 19:48:36.393 [quartzScheduler_Worker-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-09 19:48:36.783 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. End！
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-08-09 19:49:06.221 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-09 19:49:06.252 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-09 19:49:35.104 [Thread-20] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status DOWN
+2019-08-09 19:49:35.104 [Thread-20] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351375104, current=DOWN, previous=UP]
+2019-08-09 19:49:35.104 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:49:35.104 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:49:35.104 [Thread-20] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2019-08-09 19:49:35.104 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-08-09 19:49:35.104 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:49:35.104 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-08-09 19:49:35.104 [Thread-20] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:49:35.119 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204
+2019-08-09 19:51:31.110 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c4a05e3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:51:32.422 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-09 19:51:32.719 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-09 19:51:32.719 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-09 19:51:32.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-08-09 19:51:32.875 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2e2bea2a-4cb2-31bc-8eb3-c971ee644740
+2019-08-09 19:51:32.937 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c4a05e3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:51:33.094 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-09 19:51:33.094 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:51:33.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-09 19:51:33.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-09 19:51:33.203 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-09 19:51:33.203 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 766 ms
+2019-08-09 19:51:33.593 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:51:33.593 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:51:33.609 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:51:33.609 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:51:33.687 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:51:33.890 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-09 19:51:33.906 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4e5c8ef3
+2019-08-09 19:51:35.175 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:51:36.394 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:51:36.487 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-09 19:51:36.518 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-09 19:51:36.549 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-09 19:51:36.549 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-09 19:51:36.643 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-09 19:51:36.643 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-09 19:51:36.784 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-09 19:51:36.940 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-09 19:51:37.034 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-09 19:51:37.034 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-09 19:51:37.034 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-09 19:51:37.034 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565351497034 with initial instances count: 0
+2019-08-09 19:51:37.034 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status UP
+2019-08-09 19:51:37.034 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351497034, current=UP, previous=STARTING]
+2019-08-09 19:51:37.034 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:51:37.034 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-09 19:51:37.034 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-09 19:51:37.049 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. Start！
+2019-08-09 19:51:37.049 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:51:37.049 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280601
+2019-08-09 19:51:37.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-09 19:51:37.081 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-09 19:51:37.081 [main] INFO  com.example.gradleDemo.Application - Started Application in 7.69 seconds (JVM running for 8.423)
+2019-08-09 19:51:37.112 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204
+2019-08-09 19:51:37.206 [quartzScheduler_Worker-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-09 19:51:37.206 [quartzScheduler_Worker-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-09 19:51:37.580 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. End！
+2019-08-09 19:51:54.695 [Thread-20] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status DOWN
+2019-08-09 19:51:54.695 [Thread-20] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351514695, current=DOWN, previous=UP]
+2019-08-09 19:51:54.695 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:51:54.711 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:51:54.711 [Thread-20] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2019-08-09 19:51:54.711 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-08-09 19:51:54.711 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:51:54.711 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-08-09 19:51:54.711 [Thread-20] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:51:54.726 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204
+2019-08-09 19:52:54.021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf0fc04d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:52:55.333 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-09 19:52:55.630 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-09 19:52:55.630 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-09 19:52:55.645 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-08-09 19:52:55.786 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2e2bea2a-4cb2-31bc-8eb3-c971ee644740
+2019-08-09 19:52:55.848 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf0fc04d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-09 19:52:56.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-09 19:52:56.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:52:56.020 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-09 19:52:56.020 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-09 19:52:56.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-09 19:52:56.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 766 ms
+2019-08-09 19:52:56.504 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:52:56.504 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:52:56.504 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-09 19:52:56.504 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-09 19:52:56.598 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-09 19:52:56.801 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7336fd8f
+2019-08-09 19:52:58.082 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:52:59.301 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-09 19:52:59.394 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-09 19:52:59.441 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-09 19:52:59.472 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-09 19:52:59.472 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-09 19:52:59.551 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-09 19:52:59.551 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-09 19:52:59.707 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-09 19:52:59.847 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-09 19:52:59.941 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-09 19:52:59.941 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-09 19:52:59.941 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-09 19:52:59.941 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565351579941 with initial instances count: 0
+2019-08-09 19:52:59.941 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status UP
+2019-08-09 19:52:59.941 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351579941, current=UP, previous=STARTING]
+2019-08-09 19:52:59.941 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:52:59.941 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-09 19:52:59.941 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-09 19:52:59.957 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. Start！
+2019-08-09 19:52:59.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-09 19:52:59.957 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280601
+2019-08-09 19:52:59.972 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-09 19:52:59.972 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-09 19:52:59.972 [main] INFO  com.example.gradleDemo.Application - Started Application in 7.654 seconds (JVM running for 8.396)
+2019-08-09 19:53:00.035 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204
+2019-08-09 19:53:00.082 [quartzScheduler_Worker-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-09 19:53:00.082 [quartzScheduler_Worker-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-09 19:53:00.457 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. End！
+2019-08-09 19:53:06.704 [Thread-20] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WEATHER-DATA-COLLECTION-EUREKA with eureka with status DOWN
+2019-08-09 19:53:06.704 [Thread-20] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565351586704, current=DOWN, previous=UP]
+2019-08-09 19:53:06.704 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880: registering service...
+2019-08-09 19:53:06.704 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:53:06.704 [Thread-20] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2019-08-09 19:53:06.704 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-08-09 19:53:06.704 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-09 19:53:06.704 [Thread-20] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-08-09 19:53:06.704 [Thread-20] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-09 19:53:06.720 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 - registration status: 204

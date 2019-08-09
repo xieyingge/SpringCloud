@@ -1,0 +1,55 @@
+
+spring:
+ profiles:
+   active: dev
+ datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  url: jdbc:oracle:thin:@localhost:1521:ORCL
+#  url: jdbc:mysql://127.0.0.1:3306/xyg
+  username: XYG
+  password: root
+#  driver-class-name: com.mysql.cj.jdbc.Driver
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  filters: stat
+  maxActive: 20
+  initialSize: 1
+  maxWait: 60000
+  minIdle: 1
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+#  validationQuery: select 1
+#  testWhileIdle: false
+  testOnBorrow: false
+  testOnReturn: false
+  poolPreparedStatements: true
+  maxOpenPreparedStatements: 20
+# devtools:
+#   restart:
+#     additional-paths: src/main/java
+#     enabled: true
+#     exclude: ../static/js/plugins/highcharts/css/js/themes
+ thymeleaf:
+     cache: false
+     prefix: classpath:/templates/
+     check-template-location: true
+     suffix: .html
+     encoding: UTF-8
+     mode: HTML
+# redis:
+#    database: 0
+#    host: 127.0.0.1
+#    port: 6379
+#    password:
+#    timeout:
+
+
+
+mybatis:
+    type-aliases-package: com.example.gradleDemo.entity
+    mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8080
+#  servlet:
+#    context-path: /aaa
+
+

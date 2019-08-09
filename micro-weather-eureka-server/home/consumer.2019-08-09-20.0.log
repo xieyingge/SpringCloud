@@ -1,0 +1,55 @@
+2019-08-09 20:00:20.088 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-08-09 20:00:31.671 [http-nio-8761-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance UNKNOWN/localhost:8081 with status UP (replication=false)
+2019-08-09 20:00:41.365 [http-nio-8761-exec-10] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance UNKNOWN/localhost:8081 with status DOWN (replication=false)
+2019-08-09 20:01:00.986 [http-nio-8761-exec-3] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA--EUREKA/localhost:weather-data--eureka:8881 with status UP (replication=false)
+2019-08-09 20:01:20.094 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-08-09 20:01:41.731 [http-nio-8761-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA--EUREKA/localhost:weather-data--eureka:8881 with status DOWN (replication=false)
+2019-08-09 20:01:44.761 [http-nio-8761-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance WEATHER-DATA--EUREKA/localhost:weather-data--eureka:8881 (replication=false)
+2019-08-09 20:01:55.679 [http-nio-8761-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA-EUREKA/localhost:weather-data-eureka:8881 with status UP (replication=false)
+2019-08-09 20:02:19.933 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-08-09 20:02:20.104 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-08-09 20:02:22.963 [http-nio-8761-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 with status UP (replication=false)
+2019-08-09 20:03:20.119 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-08-09 20:04:20.126 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-08-09 20:05:20.133 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-08-09 20:06:20.138 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-08-09 20:07:19.941 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-08-09 20:07:20.145 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-08-09 20:08:20.150 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-08-09 20:08:57.461 [http-nio-8761-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-REPORT-EUREKA/localhost:micro-weather-report-eureka:8882 with status UP (replication=false)
+2019-08-09 20:09:06.916 [http-nio-8761-exec-4] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA-EUREKA/localhost:weather-data-eureka:8881 with status DOWN (replication=false)
+2019-08-09 20:09:09.433 [http-nio-8761-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 with status DOWN (replication=false)
+2019-08-09 20:09:09.959 [http-nio-8761-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance WEATHER-DATA-EUREKA/localhost:weather-data-eureka:8881 (replication=false)
+2019-08-09 20:09:13.600 [http-nio-8761-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance WEATHER-DATA-COLLECTION-EUREKA/localhost:weather-data-collection-eureka:8880 (replication=false)
+2019-08-09 20:09:20.159 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2019-08-09 20:09:21.752 [http-nio-8761-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-EUREKA/localhost:micro-weather-data-eureka:8881 with status UP (replication=false)
+2019-08-09 20:09:25.533 [http-nio-8761-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA/localhost:micro-weather-data-collection-eureka:8880 with status UP (replication=false)
+2019-08-09 20:10:20.165 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-08-09 20:11:20.173 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-08-09 20:12:19.934 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-08-09 20:12:20.184 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-08-09 20:13:20.194 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-08-09 20:14:20.206 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-08-09 20:15:20.215 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2019-08-09 20:16:19.794 [http-nio-8761-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883 with status UP (replication=false)
+2019-08-09 20:16:20.216 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-09 20:16:57.627 [http-nio-8761-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883 with status DOWN (replication=false)
+2019-08-09 20:16:57.642 [http-nio-8761-exec-4] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883 (replication=false)
+2019-08-09 20:17:02.063 [http-nio-8761-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-REPORT-EUREKA/localhost:micro-weather-report-eureka:8882 with status DOWN (replication=false)
+2019-08-09 20:17:02.079 [http-nio-8761-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance MICRO-WEATHER-REPORT-EUREKA/localhost:micro-weather-report-eureka:8882 (replication=false)
+2019-08-09 20:17:04.859 [http-nio-8761-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-EUREKA/localhost:micro-weather-data-eureka:8881 with status DOWN (replication=false)
+2019-08-09 20:17:08.108 [http-nio-8761-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA/localhost:micro-weather-data-collection-eureka:8880 with status DOWN (replication=false)
+2019-08-09 20:17:20.216 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-09 20:17:20.217 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Evicting 1 items (expired=1, evictionLimit=1)
+2019-08-09 20:17:20.217 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for UNKNOWN/localhost:8081
+2019-08-09 20:17:20.218 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance UNKNOWN/localhost:8081 (replication=false)
+2019-08-09 20:18:20.217 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-09 20:19:20.218 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-08-09 20:20:20.226 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2019-08-09 20:21:20.231 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-08-09 20:22:19.943 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-08-09 20:22:19.943 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-08-09 20:22:20.240 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2019-08-09 20:23:20.253 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-08-09 20:24:20.264 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-08-09 20:25:20.271 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
