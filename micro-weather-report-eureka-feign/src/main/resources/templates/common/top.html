@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<nav class="navbar " role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="javascript:;"  style=""><i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+    <ul class="nav navbar-top-links navbar-right jy-socket-index">
+        <li th:if="${session.user.username=='stadmin'}">
+            <a th:href="@{/jy/socket/index}" target="_blank">设备报文界面</a>
+        </li>
+        <li th:if="${session.user.username=='stadmin'}">
+            <a th:href="@{/test/test}" target="_blank">测试数据界面</a>
+        </li>
+        <li>
+            <span class="m-r-sm text-muted welcome-message">欢迎来到<span th:text="${applicationName}"></span>售货机管理系统 </span>
+        </li>
+        <li>
+            <a th:href="@{/editPassword}">
+               修改密码
+            </a>
+        </li>
+        <li>
+            <a th:href="@{/logout.html}">
+                <i class="fa fa-sign-out"></i> 登出
+            </a>
+        </li>
+    </ul>
+</nav>
+
+</html>
