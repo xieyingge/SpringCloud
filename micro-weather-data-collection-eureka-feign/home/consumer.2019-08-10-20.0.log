@@ -1,0 +1,386 @@
+2019-08-10 20:09:53.399 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6297202d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:09:54.633 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:09:54.961 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-10 20:09:54.961 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-10 20:09:54.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-08-10 20:09:55.117 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=575e5c4b-26e5-3626-8741-7b8dd0e591ea
+2019-08-10 20:09:55.133 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.gradleDemo.service.CityClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:09:55.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6297202d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:09:55.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8882 (http)
+2019-08-10 20:09:55.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8882"]
+2019-08-10 20:09:55.320 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:09:55.320 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:09:55.414 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:09:55.414 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 765 ms
+2019-08-10 20:09:55.789 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:09:55.789 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:09:55.789 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:09:55.789 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:09:55.867 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-10 20:09:56.055 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@53e76c11
+2019-08-10 20:09:57.273 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:09:58.429 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:09:58.523 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:09:58.538 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:09:58.570 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:09:58.570 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:09:58.632 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:09:58.632 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:09:58.742 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:09:58.835 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:09:58.945 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:09:58.945 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:09:58.945 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:09:58.945 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438998945 with initial instances count: 2
+2019-08-10 20:09:58.945 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN with eureka with status UP
+2019-08-10 20:09:58.945 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438998945, current=UP, previous=STARTING]
+2019-08-10 20:09:58.945 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/localhost:micro-weather-data-collection-eureka-feign:8882: registering service...
+2019-08-10 20:09:58.945 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-10 20:09:58.945 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-10 20:09:58.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8882"]
+2019-08-10 20:09:58.976 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8882 (http) with context path ''
+2019-08-10 20:09:58.991 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/localhost:micro-weather-data-collection-eureka-feign:8882 - registration status: 204
+2019-08-10 20:09:59.007 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8882
+2019-08-10 20:09:59.007 [main] INFO  com.example.gradleDemo.Application - Started Application in 7.248 seconds (JVM running for 7.826)
+2019-08-10 20:09:59.007 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. Start！
+2019-08-10 20:09:59.101 [quartzScheduler_Worker-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:09:59.116 [quartzScheduler_Worker-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-micro-weather-city-eureka
+2019-08-10 20:09:59.116 [quartzScheduler_Worker-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: micro-weather-city-eureka instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-weather-city-eureka,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-08-10 20:09:59.116 [quartzScheduler_Worker-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-08-10 20:09:59.132 [quartzScheduler_Worker-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:09:59.132 [quartzScheduler_Worker-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client micro-weather-city-eureka initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-weather-city-eureka,current list of Servers=[localhost:8880, localhost:8881],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:8881;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:localhost:8880;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@49184b82
+2019-08-10 20:09:59.304 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280101
+2019-08-10 20:09:59.460 [quartzScheduler_Worker-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-10 20:09:59.476 [quartzScheduler_Worker-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-10 20:09:59.741 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280102
+2019-08-10 20:09:59.820 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280103
+2019-08-10 20:09:59.913 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280104
+2019-08-10 20:09:59.992 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280105
+2019-08-10 20:10:00.054 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280201
+2019-08-10 20:10:00.069 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280202
+2019-08-10 20:10:00.132 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:10:00.132 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280203
+2019-08-10 20:10:00.195 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280204
+2019-08-10 20:10:00.257 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280205
+2019-08-10 20:10:00.351 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280206
+2019-08-10 20:10:00.444 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280207
+2019-08-10 20:10:00.507 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280208
+2019-08-10 20:10:00.616 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280209
+2019-08-10 20:10:00.710 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280210
+2019-08-10 20:10:00.866 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280211
+2019-08-10 20:10:01.335 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280301
+2019-08-10 20:10:01.351 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280302
+2019-08-10 20:10:01.460 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280303
+2019-08-10 20:10:01.554 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280304
+2019-08-10 20:10:01.647 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280305
+2019-08-10 20:10:01.725 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280401
+2019-08-10 20:10:01.741 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280402
+2019-08-10 20:10:01.850 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280403
+2019-08-10 20:10:02.007 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280404
+2019-08-10 20:10:02.116 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280406
+2019-08-10 20:10:02.179 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280407
+2019-08-10 20:10:02.256 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280408
+2019-08-10 20:10:02.397 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280409
+2019-08-10 20:10:02.475 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280501
+2019-08-10 20:10:02.506 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280502
+2019-08-10 20:10:02.569 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280503
+2019-08-10 20:10:02.631 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280504
+2019-08-10 20:10:02.725 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280601
+2019-08-10 20:10:02.741 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280701
+2019-08-10 20:10:02.757 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280702
+2019-08-10 20:10:02.819 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280703
+2019-08-10 20:10:02.913 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280800
+2019-08-10 20:10:02.928 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280801
+2019-08-10 20:10:02.944 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280802
+2019-08-10 20:10:03.007 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280803
+2019-08-10 20:10:03.163 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280804
+2019-08-10 20:10:03.256 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280901
+2019-08-10 20:10:03.350 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280902
+2019-08-10 20:10:03.413 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280903
+2019-08-10 20:10:03.491 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280905
+2019-08-10 20:10:03.584 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280906
+2019-08-10 20:10:03.647 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280907
+2019-08-10 20:10:03.694 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280908
+2019-08-10 20:10:03.803 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281001
+2019-08-10 20:10:03.819 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281002
+2019-08-10 20:10:03.912 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281003
+2019-08-10 20:10:03.975 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281004
+2019-08-10 20:10:04.006 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281005
+2019-08-10 20:10:04.068 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281006
+2019-08-10 20:10:04.131 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281007
+2019-08-10 20:10:04.225 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281008
+2019-08-10 20:10:04.303 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281009
+2019-08-10 20:10:04.397 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281010
+2019-08-10 20:10:04.459 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281101
+2019-08-10 20:10:04.475 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281103
+2019-08-10 20:10:04.537 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281104
+2019-08-10 20:10:04.553 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281105
+2019-08-10 20:10:04.647 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281106
+2019-08-10 20:10:04.725 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281107
+2019-08-10 20:10:04.818 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281108
+2019-08-10 20:10:04.912 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281109
+2019-08-10 20:10:05.006 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281201
+2019-08-10 20:10:05.037 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281202
+2019-08-10 20:10:05.162 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281203
+2019-08-10 20:10:05.302 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281204
+2019-08-10 20:10:05.334 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281205
+2019-08-10 20:10:05.412 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281206
+2019-08-10 20:10:05.787 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281301
+2019-08-10 20:10:05.803 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281302
+2019-08-10 20:10:05.959 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281303
+2019-08-10 20:10:06.037 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281304
+2019-08-10 20:10:06.162 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281305
+2019-08-10 20:10:06.225 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281306
+2019-08-10 20:10:06.302 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281307
+2019-08-10 20:10:06.380 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281308
+2019-08-10 20:10:06.474 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281401
+2019-08-10 20:10:06.490 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281402
+2019-08-10 20:10:06.552 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281403
+2019-08-10 20:10:06.677 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281404
+2019-08-10 20:10:06.958 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281406
+2019-08-10 20:10:07.068 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281501
+2019-08-10 20:10:07.084 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281502
+2019-08-10 20:10:07.146 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281503
+2019-08-10 20:10:07.240 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281601
+2019-08-10 20:10:07.255 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281701
+2019-08-10 20:10:07.271 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281801
+2019-08-10 20:10:07.302 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281802
+2019-08-10 20:10:07.396 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281803
+2019-08-10 20:10:07.505 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281804
+2019-08-10 20:10:07.646 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281901
+2019-08-10 20:10:07.677 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281902
+2019-08-10 20:10:08.170 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281903
+2019-08-10 20:10:08.268 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281904
+2019-08-10 20:10:08.363 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281905
+2019-08-10 20:10:08.504 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282001
+2019-08-10 20:10:08.535 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282002
+2019-08-10 20:10:08.598 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282003
+2019-08-10 20:10:08.691 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282004
+2019-08-10 20:10:08.801 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282005
+2019-08-10 20:10:08.879 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282006
+2019-08-10 20:10:08.988 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282101
+2019-08-10 20:10:09.004 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282102
+2019-08-10 20:10:09.129 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282103
+2019-08-10 20:10:09.222 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282104
+2019-08-10 20:10:09.285 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. End！
+2019-08-10 20:10:18.115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:10:19.365 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:10:19.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-10 20:10:19.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-10 20:10:19.662 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-08-10 20:10:19.787 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=575e5c4b-26e5-3626-8741-7b8dd0e591ea
+2019-08-10 20:10:19.787 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.gradleDemo.service.CityClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:10:19.834 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:10:19.974 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8883 (http)
+2019-08-10 20:10:19.974 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:10:19.990 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:10:19.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:10:20.068 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:10:20.068 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 687 ms
+2019-08-10 20:10:20.427 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:10:20.427 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:10:20.427 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:10:20.427 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:10:20.506 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-10 20:10:20.677 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5d7399f9
+2019-08-10 20:10:21.896 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:10:23.036 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:10:23.114 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:10:23.146 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:10:23.177 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:10:23.177 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:10:23.239 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:10:23.239 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:10:23.333 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:10:23.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:10:23.520 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:10:23.520 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:10:23.520 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:10:23.536 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565439023536 with initial instances count: 3
+2019-08-10 20:10:23.536 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN with eureka with status UP
+2019-08-10 20:10:23.536 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565439023536, current=UP, previous=STARTING]
+2019-08-10 20:10:23.536 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/localhost:micro-weather-data-collection-eureka-feign:8883: registering service...
+2019-08-10 20:10:23.536 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-10 20:10:23.536 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-10 20:10:23.536 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:10:23.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8883 (http) with context path ''
+2019-08-10 20:10:23.567 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/localhost:micro-weather-data-collection-eureka-feign:8883 - registration status: 204
+2019-08-10 20:10:23.599 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8883
+2019-08-10 20:10:23.599 [main] INFO  com.example.gradleDemo.Application - Started Application in 7.108 seconds (JVM running for 7.678)
+2019-08-10 20:10:23.599 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. Start！
+2019-08-10 20:10:23.692 [quartzScheduler_Worker-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:10:23.708 [quartzScheduler_Worker-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-micro-weather-city-eureka
+2019-08-10 20:10:23.708 [quartzScheduler_Worker-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: micro-weather-city-eureka instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-weather-city-eureka,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-08-10 20:10:23.708 [quartzScheduler_Worker-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-08-10 20:10:23.724 [quartzScheduler_Worker-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:10:23.724 [quartzScheduler_Worker-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client micro-weather-city-eureka initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-weather-city-eureka,current list of Servers=[localhost:8881, localhost:8880],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:8881;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:localhost:8880;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1956f8c8
+2019-08-10 20:10:23.880 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280101
+2019-08-10 20:10:23.989 [quartzScheduler_Worker-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-10 20:10:23.989 [quartzScheduler_Worker-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-10 20:10:24.239 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280102
+2019-08-10 20:10:24.255 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280103
+2019-08-10 20:10:24.270 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280104
+2019-08-10 20:10:24.286 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280105
+2019-08-10 20:10:24.302 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280201
+2019-08-10 20:10:24.318 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280202
+2019-08-10 20:10:24.333 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280203
+2019-08-10 20:10:24.333 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280204
+2019-08-10 20:10:24.349 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280205
+2019-08-10 20:10:24.364 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280206
+2019-08-10 20:10:24.458 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280207
+2019-08-10 20:10:24.474 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280208
+2019-08-10 20:10:24.474 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280209
+2019-08-10 20:10:24.489 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280210
+2019-08-10 20:10:24.505 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280211
+2019-08-10 20:10:24.520 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280301
+2019-08-10 20:10:24.536 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280302
+2019-08-10 20:10:24.536 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280303
+2019-08-10 20:10:24.552 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280304
+2019-08-10 20:10:24.567 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280305
+2019-08-10 20:10:24.567 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280401
+2019-08-10 20:10:24.583 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280402
+2019-08-10 20:10:24.599 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280403
+2019-08-10 20:10:24.614 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280404
+2019-08-10 20:10:24.630 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280406
+2019-08-10 20:10:24.645 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280407
+2019-08-10 20:10:24.661 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280408
+2019-08-10 20:10:24.677 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280409
+2019-08-10 20:10:24.692 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280501
+2019-08-10 20:10:24.692 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280502
+2019-08-10 20:10:24.708 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280503
+2019-08-10 20:10:24.724 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: micro-weather-city-eureka.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-08-10 20:10:24.724 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280504
+2019-08-10 20:10:24.739 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280601
+2019-08-10 20:10:24.739 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280701
+2019-08-10 20:10:24.786 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280702
+2019-08-10 20:10:24.786 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280703
+2019-08-10 20:10:24.817 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280800
+2019-08-10 20:10:24.833 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280801
+2019-08-10 20:10:24.833 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280802
+2019-08-10 20:10:24.848 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280803
+2019-08-10 20:10:24.864 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280804
+2019-08-10 20:10:24.880 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280901
+2019-08-10 20:10:24.896 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280902
+2019-08-10 20:10:24.911 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280903
+2019-08-10 20:10:24.927 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280905
+2019-08-10 20:10:24.942 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280906
+2019-08-10 20:10:24.958 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280907
+2019-08-10 20:10:24.958 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101280908
+2019-08-10 20:10:24.974 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281001
+2019-08-10 20:10:24.989 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281002
+2019-08-10 20:10:24.989 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281003
+2019-08-10 20:10:25.036 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281004
+2019-08-10 20:10:25.052 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281005
+2019-08-10 20:10:25.067 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281006
+2019-08-10 20:10:25.083 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281007
+2019-08-10 20:10:25.083 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281008
+2019-08-10 20:10:25.098 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281009
+2019-08-10 20:10:25.114 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281010
+2019-08-10 20:10:25.130 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281101
+2019-08-10 20:10:25.161 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281103
+2019-08-10 20:10:25.161 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281104
+2019-08-10 20:10:25.176 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281105
+2019-08-10 20:10:25.192 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281106
+2019-08-10 20:10:25.208 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281107
+2019-08-10 20:10:25.208 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281108
+2019-08-10 20:10:25.224 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281109
+2019-08-10 20:10:25.239 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281201
+2019-08-10 20:10:25.239 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281202
+2019-08-10 20:10:25.254 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281203
+2019-08-10 20:10:25.270 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281204
+2019-08-10 20:10:25.286 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281205
+2019-08-10 20:10:25.301 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281206
+2019-08-10 20:10:25.301 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281301
+2019-08-10 20:10:25.317 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281302
+2019-08-10 20:10:25.333 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281303
+2019-08-10 20:10:25.349 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281304
+2019-08-10 20:10:25.364 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281305
+2019-08-10 20:10:25.364 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281306
+2019-08-10 20:10:25.380 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281307
+2019-08-10 20:10:25.395 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281308
+2019-08-10 20:10:25.395 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281401
+2019-08-10 20:10:25.411 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281402
+2019-08-10 20:10:25.427 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281403
+2019-08-10 20:10:25.442 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281404
+2019-08-10 20:10:25.458 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281406
+2019-08-10 20:10:25.458 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281501
+2019-08-10 20:10:25.473 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281502
+2019-08-10 20:10:25.489 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281503
+2019-08-10 20:10:25.505 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281601
+2019-08-10 20:10:25.520 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281701
+2019-08-10 20:10:25.536 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281801
+2019-08-10 20:10:25.552 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281802
+2019-08-10 20:10:25.567 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281803
+2019-08-10 20:10:25.567 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281804
+2019-08-10 20:10:25.582 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281901
+2019-08-10 20:10:25.598 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281902
+2019-08-10 20:10:25.614 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281903
+2019-08-10 20:10:25.630 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281904
+2019-08-10 20:10:25.645 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101281905
+2019-08-10 20:10:25.645 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282001
+2019-08-10 20:10:25.661 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282002
+2019-08-10 20:10:25.677 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282003
+2019-08-10 20:10:25.692 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282004
+2019-08-10 20:10:25.692 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282005
+2019-08-10 20:10:25.708 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282006
+2019-08-10 20:10:25.723 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282101
+2019-08-10 20:10:25.739 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282102
+2019-08-10 20:10:25.755 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282103
+2019-08-10 20:10:25.770 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job, cityId:101282104
+2019-08-10 20:10:25.786 [quartzScheduler_Worker-1] INFO  com.example.gradleDemo.job.WeatherDataSyncJob - Weather Data Sync Job. End！
+2019-08-10 20:14:58.861 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:15:23.452 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:19:58.868 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:20:23.458 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:24:58.878 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:25:23.466 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:29:58.889 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:30:23.474 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:34:58.901 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:35:23.489 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

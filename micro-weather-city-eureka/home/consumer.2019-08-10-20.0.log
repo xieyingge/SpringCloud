@@ -1,0 +1,335 @@
+2019-08-10 20:03:32.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f91f4877] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:03:33.294 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:03:33.606 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:03:33.653 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f91f4877] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:03:33.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8883 (http)
+2019-08-10 20:03:33.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:03:33.794 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:03:33.794 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:03:33.872 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:03:33.872 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 563 ms
+2019-08-10 20:03:33.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:03:33.919 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:03:33.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:03:33.919 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:03:34.028 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:03:35.403 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:03:36.559 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:03:36.621 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:03:36.637 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:03:36.731 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:03:36.731 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:03:36.793 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:03:36.793 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:03:36.887 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:03:36.981 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:03:37.090 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:03:37.090 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:03:37.090 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:03:37.090 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438617090 with initial instances count: 2
+2019-08-10 20:03:37.090 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-CITY-EUREKA with eureka with status UP
+2019-08-10 20:03:37.090 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438617090, current=UP, previous=STARTING]
+2019-08-10 20:03:37.090 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883: registering service...
+2019-08-10 20:03:37.105 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:03:37.121 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8883 (http) with context path ''
+2019-08-10 20:03:37.121 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8883
+2019-08-10 20:03:37.121 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.655 seconds (JVM running for 7.184)
+2019-08-10 20:03:37.137 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883 - registration status: 204
+2019-08-10 20:04:37.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f668c264] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:04:38.579 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:04:38.875 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:04:38.922 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f668c264] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:04:39.047 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8883 (http)
+2019-08-10 20:04:39.063 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:04:39.063 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:04:39.063 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:04:39.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:04:39.141 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 562 ms
+2019-08-10 20:04:39.188 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:04:39.188 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:04:39.188 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:04:39.188 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:04:39.281 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:04:40.625 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:04:41.781 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:04:41.843 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:04:41.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:04:41.953 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:04:41.953 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:04:42.015 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:04:42.015 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:04:42.109 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:04:42.203 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:04:42.312 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:04:42.312 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:04:42.312 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:04:42.312 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438682312 with initial instances count: 2
+2019-08-10 20:04:42.312 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-CITY-EUREKA with eureka with status UP
+2019-08-10 20:04:42.312 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438682312, current=UP, previous=STARTING]
+2019-08-10 20:04:42.312 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883: registering service...
+2019-08-10 20:04:42.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8883"]
+2019-08-10 20:04:42.343 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8883 (http) with context path ''
+2019-08-10 20:04:42.343 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8883
+2019-08-10 20:04:42.343 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.67 seconds (JVM running for 7.173)
+2019-08-10 20:04:42.359 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8883 - registration status: 204
+2019-08-10 20:05:30.314 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cdef58db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:05:31.563 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: dev
+2019-08-10 20:05:31.876 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:05:31.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cdef58db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:05:32.048 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-10 20:05:32.048 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:05:32.048 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:05:32.048 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:05:32.126 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:05:32.126 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 547 ms
+2019-08-10 20:05:32.173 [main] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2019-08-10 20:05:32.173 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:05:32.173 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:05:32.173 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:05:32.173 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:05:32.266 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:05:33.579 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:05:34.735 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:05:34.797 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:05:34.828 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:05:34.906 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:05:34.906 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:05:34.969 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:05:34.969 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:05:35.062 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:05:35.172 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:05:35.266 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:05:35.266 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:05:35.266 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:05:35.266 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438735266 with initial instances count: 2
+2019-08-10 20:05:35.266 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+2019-08-10 20:05:35.266 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438735266, current=UP, previous=STARTING]
+2019-08-10 20:05:35.266 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/localhost:8880: registering service...
+2019-08-10 20:05:35.281 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:05:35.297 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-10 20:05:35.297 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-10 20:05:35.297 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.577 seconds (JVM running for 7.078)
+2019-08-10 20:05:35.312 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/localhost:8880 - registration status: 204
+2019-08-10 20:05:55.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3980ecef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:05:56.781 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: devttt
+2019-08-10 20:05:57.078 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:05:57.124 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3980ecef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:05:57.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-10 20:05:57.265 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:05:57.265 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:05:57.265 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:05:57.343 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:05:57.343 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 547 ms
+2019-08-10 20:05:57.390 [main] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2019-08-10 20:05:57.390 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:05:57.390 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:05:57.390 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:05:57.390 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:05:57.484 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:05:58.796 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:05:59.952 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:06:00.030 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:06:00.046 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:06:00.139 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:06:00.139 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:06:00.202 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:06:00.202 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:06:00.296 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:06:00.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:06:00.499 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:06:00.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:06:00.499 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:06:00.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438760499 with initial instances count: 3
+2019-08-10 20:06:00.499 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+2019-08-10 20:06:00.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438760499, current=UP, previous=STARTING]
+2019-08-10 20:06:00.499 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/localhost:8880: registering service...
+2019-08-10 20:06:00.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:06:00.530 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/localhost:8880 - registration status: 204
+2019-08-10 20:06:00.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-10 20:06:00.530 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-10 20:06:00.530 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.592 seconds (JVM running for 7.109)
+2019-08-10 20:06:28.388 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$edb4d812] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:06:29.622 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:06:29.966 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:06:29.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$edb4d812] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:06:30.138 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-10 20:06:30.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:06:30.153 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:06:30.153 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:06:30.247 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:06:30.247 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 609 ms
+2019-08-10 20:06:30.294 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:06:30.294 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:06:30.294 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:06:30.294 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:06:30.388 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:06:31.778 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:06:32.919 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:06:32.981 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:06:33.012 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:06:33.090 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:06:33.090 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:06:33.153 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:06:33.153 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:06:33.246 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:06:33.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:06:33.449 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:06:33.449 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:06:33.465 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:06:33.465 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438793465 with initial instances count: 3
+2019-08-10 20:06:33.465 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-CITY-EUREKA with eureka with status UP
+2019-08-10 20:06:33.465 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438793465, current=UP, previous=STARTING]
+2019-08-10 20:06:33.465 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8880: registering service...
+2019-08-10 20:06:33.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:06:33.496 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-10 20:06:33.496 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-10 20:06:33.496 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.727 seconds (JVM running for 7.223)
+2019-08-10 20:06:33.496 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8880 - registration status: 204
+2019-08-10 20:08:11.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9cb1ac3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:08:12.902 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:08:13.215 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:08:13.246 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9cb1ac3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:08:13.386 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8880 (http)
+2019-08-10 20:08:13.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:08:13.402 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:08:13.402 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:08:13.480 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:08:13.480 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 562 ms
+2019-08-10 20:08:13.511 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:08:13.511 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:08:13.511 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:08:13.511 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:08:13.621 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:08:15.011 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:08:16.167 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:08:16.229 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:08:16.261 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:08:16.339 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:08:16.339 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:08:16.409 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:08:16.409 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:08:16.513 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:08:16.622 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:08:16.716 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:08:16.716 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:08:16.716 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:08:16.716 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438896716 with initial instances count: 0
+2019-08-10 20:08:16.716 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-CITY-EUREKA with eureka with status UP
+2019-08-10 20:08:16.716 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438896716, current=UP, previous=STARTING]
+2019-08-10 20:08:16.716 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8880: registering service...
+2019-08-10 20:08:16.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8880"]
+2019-08-10 20:08:16.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8880 (http) with context path ''
+2019-08-10 20:08:16.747 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8880
+2019-08-10 20:08:16.747 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.688 seconds (JVM running for 7.206)
+2019-08-10 20:08:16.779 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8880 - registration status: 204
+2019-08-10 20:08:21.521 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8477cf20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:08:22.755 [main] INFO  com.example.gradleDemo.Application - The following profiles are active: eureka
+2019-08-10 20:08:23.068 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81d00a61-8fe7-36e1-a607-ba65ebc8c8d9
+2019-08-10 20:08:23.115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8477cf20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-10 20:08:23.240 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2019-08-10 20:08:23.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2019-08-10 20:08:23.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-10 20:08:23.255 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-10 20:08:23.333 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-10 20:08:23.333 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 562 ms
+2019-08-10 20:08:23.380 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:08:23.380 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:08:23.380 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-10 20:08:23.380 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-10 20:08:23.458 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-10 20:08:24.818 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:08:25.958 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-08-10 20:08:26.036 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-10 20:08:26.067 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-10 20:08:26.145 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-10 20:08:26.145 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-10 20:08:26.208 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-10 20:08:26.208 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-10 20:08:26.301 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-08-10 20:08:26.395 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:08:26.458 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:08:26.458 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-08-10 20:08:26.458 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-10 20:08:26.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565438906473 with initial instances count: 0
+2019-08-10 20:08:26.473 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application MICRO-WEATHER-CITY-EUREKA with eureka with status UP
+2019-08-10 20:08:26.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1565438906473, current=UP, previous=STARTING]
+2019-08-10 20:08:26.473 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8881: registering service...
+2019-08-10 20:08:26.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2019-08-10 20:08:26.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2019-08-10 20:08:26.489 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8881
+2019-08-10 20:08:26.489 [main] INFO  com.example.gradleDemo.Application - Started Application in 6.577 seconds (JVM running for 7.119)
+2019-08-10 20:08:26.520 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MICRO-WEATHER-CITY-EUREKA/localhost:micro-weather-city-eureka:8881 - registration status: 204
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-08-10 20:08:46.721 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:08:46.752 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-08-10 20:08:56.481 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-08-10 20:08:56.512 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-08-10 20:09:59.210 [http-nio-8880-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-10 20:09:59.210 [http-nio-8880-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-10 20:09:59.226 [http-nio-8880-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-08-10 20:10:23.802 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-10 20:10:23.802 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-10 20:10:23.802 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2019-08-10 20:13:16.628 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:13:26.414 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:18:16.636 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:18:26.428 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:23:16.639 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:23:26.434 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:28:16.648 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:28:26.442 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:33:16.665 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-08-10 20:33:26.454 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
