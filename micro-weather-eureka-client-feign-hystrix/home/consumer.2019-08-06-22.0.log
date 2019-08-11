@@ -1,0 +1,53 @@
+2019-08-06 22:20:00.593 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Starting MicroWeatherBasicApplication on roman with PID 9868 (E:\code\cloud\springCloudTest\out\production\classes started by roman in E:\code\cloud\springCloudTest)
+2019-08-06 22:20:00.593 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - The following profiles are active: dev
+2019-08-06 22:20:01.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-06 22:20:01.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-06 22:20:01.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-08-06 22:20:01.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5de8a00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-06 22:20:01.577 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-06 22:20:01.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-06 22:20:01.593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-06 22:20:01.593 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 22:20:02.674 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-06 22:20:02.674 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2019 ms
+2019-08-06 22:20:03.382 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-06 22:20:03.475 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-08-06 22:20:03.629 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-06 22:20:03.724 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-08-06 22:20:03.734 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-06 22:20:03.734 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2019-08-06 22:20:03.735 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-08-06 22:20:03.735 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-06 22:20:03.735 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-06 22:20:03.735 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2019-08-06 22:20:03.736 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@49038f97
+2019-08-06 22:20:03.777 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-08-06 22:20:03.777 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-06 22:20:03.784 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-06 22:20:03.804 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-06 22:20:03.807 [main] INFO  c.example.gradleDemo.MicroWeatherBasicApplication - Started MicroWeatherBasicApplication in 3.572 seconds (JVM running for 5.663)
+2019-08-06 22:20:05.979 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-06 22:20:05.979 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-06 22:20:05.985 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-08-06 22:20:06.143 [http-nio-8081-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-08-06 22:20:06.144 [http-nio-8081-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-08-06 22:20:06.474 [http-nio-8081-exec-1] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-06 22:20:16.629 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis don't has data
+2019-08-06 22:20:33.640 [http-nio-8081-exec-6] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-06 22:22:09.957 [http-nio-8081-exec-10] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-06 22:23:14.221 [http-nio-8081-exec-5] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-06 22:23:30.415 [http-nio-8081-exec-7] INFO  c.e.gradleDemo.service.impl.WeatherDataServiceImpl - Redis has data
+2019-08-06 22:27:11.796 [Thread-11] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-06 22:27:11.796 [Thread-11] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2019-08-06 22:27:11.796 [Thread-11] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-08-06 22:27:11.796 [Thread-11] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-06 22:27:11.796 [Thread-11] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-08-06 22:27:11.796 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-06 22:27:11.812 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
