@@ -1,0 +1,76 @@
+<html>
+<style media="print">
+  @page {
+    size: auto;  /* auto is the initial value */
+    margin: 0mm; /* this affects the margin in the printer settings */
+    margin-left: auto;
+
+  }
+</style>
+<head>
+  <title></title>
+</head>
+<script th:src="@{/static/js/core.js}"></script>
+<body>
+<div id="contentDiv">
+
+</div>
+
+</body>
+<script type="text/javascript" th:inline="javascript">
+   var templates = [[${templates}]];
+   var currentUser = [[${currentUser}]];
+   var printTitle = [[${printTitle}]];
+</script>
+<script type="text/javascript">
+   var rows = templates.split("|");
+   var $contentDiv = $("#contentDiv");
+   var str = '<table style="white-space: nowrap;background-color: transparent;border-spacing: 0;border-collapse: collapse;border: 1px black solid;"><tr >';
+   str += "<caption><h4>" + printTitle + "</h4></caption>";
+   for (var i in rows) {
+      var row = rows[i].split(",");
+      for (var j in row) {
+         str += '<td  style="text-align: center;padding: 7px 7px;line-height: 1.42857;vertical-align: top;border: 1px black solid;">' + row[j] + '</td>';
+      }
+      str += '</tr><tr>';
+   }
+   str += '</table>';
+   str += "<br/>制表人：" + currentUser.realName + "，制表日期：" + getTodayDate();
+   $contentDiv.append(str);
+   print_page();
+
+   function print_page() {
+      if (!!window.ActiveXObject || "ActiveXObject" in window) {
+         remove_ie_header_and_footer();
+      }
+      window.print();
+   };
+
+   /**
+    *  得到今天的日期，格式yyyy-MM-dd
+    */
+   function getTodayDate() {
+      var d = new Date();
+      return d.getFullYear() + "-" + formateMonthAndDate((d.getMonth() + 1)) + "-" + formateMonthAndDate(d.getDate());
+   }
+
+   function formateMonthAndDate(str) {
+      if (parseInt(str) < 10) {
+         str = "0" + str;
+      }
+      return str;
+   }
+
+   function remove_ie_header_and_footer() {
+      var hkey_root, hkey_path, hkey_key;
+      hkey_path = "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\PageSetup\\";
+      try {
+         var RegWsh = new ActiveXObject("WScript.Shell");
+         RegWsh.RegWrite(hkey_path + "header", "");
+         RegWsh.RegWrite(hkey_path + "footer", "");
+      } catch (e) {
+      }
+   }
+
+</script>
+</html>
